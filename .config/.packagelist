@@ -29,7 +29,6 @@ clementine
 cmake
 code
 cpupower
-cronie
 cups
 cura
 dfu-programmer
@@ -51,6 +50,7 @@ exercism-bin
 faba-icon-theme
 fakeroot
 fbv
+fcron
 feh
 file
 file-roller
@@ -131,7 +131,7 @@ newsboat
 nitrogen
 nmap
 nnn
-nodejs-lts-fermium
+nodejs
 noto-fonts-emoji
 npm
 ntfs-3g
