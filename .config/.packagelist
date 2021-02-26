@@ -29,6 +29,7 @@ clementine
 cmake
 code
 cpupower
+cronie
 cups
 cura
 dfu-programmer
@@ -50,7 +51,6 @@ exercism-bin
 faba-icon-theme
 fakeroot
 fbv
-fcron
 feh
 file
 file-roller
