@@ -175,6 +175,7 @@ ruby
 sed
 signal-desktop
 speedtest++
+spicetify-cli
 spotify
 spotify-tui
 spotifyd-full-git
@@ -198,6 +199,7 @@ texlive-pstricks
 texlive-publishers
 texlive-science
 thunar
+tidal-hifi-git
 tk
 tor
 tor-browser
