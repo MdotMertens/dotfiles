@@ -12,6 +12,7 @@ goland
 intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre
 jdk
+jdk11-adoptopenjdk
 jdtls
 microsoft-python-language-server
 minecraft-launcher
@@ -29,7 +30,9 @@ pfetch-git
 picom-jonaburg-git
 plover
 polybar
+postman-bin
 pycharm-professional
+rofi-emoji
 speedtest++
 spicetify-cli
 spotify

@@ -66,8 +66,10 @@ gcc
 geekbench
 gettext
 git
+github-cli
 godot
 goland
+gradle
 grep
 groff
 grub
@@ -81,6 +83,7 @@ intel-ucode
 intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre
 jdk
+jdk11-adoptopenjdk
 jdk11-openjdk
 jdtls
 keepassxc
@@ -157,6 +160,7 @@ plantuml
 playerctl
 plover
 polybar
+postman-bin
 pulseaudio
 pulseaudio-alsa
 pycharm-professional
@@ -170,6 +174,7 @@ qmk
 r
 redshift
 rofi
+rofi-emoji
 rofi-pass
 ruby
 sed
