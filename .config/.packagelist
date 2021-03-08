@@ -54,6 +54,7 @@ fcron
 feh
 file
 file-roller
+filezilla
 findutils
 firefox
 flatpak
@@ -116,6 +117,7 @@ maven
 mesa
 microsoft-python-language-server
 minecraft-launcher
+minecraft-server
 mpv
 multibootusb
 multimc-git
@@ -177,6 +179,7 @@ rofi
 rofi-emoji
 rofi-pass
 ruby
+screen
 sed
 signal-desktop
 speedtest++
