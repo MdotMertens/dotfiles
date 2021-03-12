@@ -236,6 +236,7 @@ wmname
 woeusb
 xarchiver
 xdg-user-dirs
+xf86-input-wacom
 xf86-video-amdgpu
 xorg-bdftopcf
 xorg-fonts-misc
@@ -275,6 +276,7 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xournalpp
 xterm
 yay
 youtube-dl
