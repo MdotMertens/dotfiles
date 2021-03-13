@@ -168,6 +168,7 @@ pulseaudio
 pulseaudio-alsa
 pycharm-professional
 python-pip
+python-poetry
 python-selenium
 python-virtualenv
 python2
@@ -189,6 +190,7 @@ spotify
 spotify-tui
 spotifyd-full-git
 steam
+strawberry
 streamlink
 sudo
 sxhkd
