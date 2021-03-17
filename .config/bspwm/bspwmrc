@@ -1,19 +1,21 @@
 #! /bin/sh
 
-setxkbmap us -variant colemak &
 sxhkd -m -1 &
 picom --experimental-backends --backend glx &
 unclutter &
 dunst &
 wmname compiz &
-polybar example &
-keynav &
+polybar example -r &
 nitrogen --restore
 
-bspc monitor -d code II III IV V
+bspc monitor -d code browse gaming music messaging
 
-bspc config border_width         1
-bspc config window_gap           10
+bspc config border_width         5
+bspc config window_gap           20
+
+bspc config normal_border_color "#4c566a"
+bspc config active_border_color "#eceff4"
+bspc config focused_border_color "#8fbcbb"
 
 bspc config split_ratio          0.5
 bspc config borderless_monocle   true
