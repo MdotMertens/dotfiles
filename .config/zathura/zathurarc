@@ -1,4 +1,6 @@
-recolor
+recolor true
+
+set selection-clipboard clipboard
 
 map N navigate next
 map E navigate previous
