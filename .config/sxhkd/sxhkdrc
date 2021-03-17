@@ -149,13 +149,17 @@ XF86AudioPlay
     playerctl play-pause
 
 super + shift + Escape
-    hueadm light 14 off && shutdown -h now
+    hueadm group 11 off transitiontime=600 && shutdown -h now
 
 #Screenshots
 alt + ctrl + s
     $HOME/.scripts/screenshot.sh full
 alt + ctrl + shift + s
     $HOME/.scripts/screenshot.sh select
+
+#Fire Emojis 🔥
+super + shift + period
+    rofi -show emoji -modi emoji
 
 #Applications
 
