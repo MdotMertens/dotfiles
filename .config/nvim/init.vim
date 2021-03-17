@@ -17,17 +17,17 @@ set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
 set undofile
+set hidden
 set incsearch
 set nu rnu
 set scrolloff=10
+set colorcolumn=80
 set cot=menuone,noinsert,noselect shm+=c
 
 
 syntax on
 colorscheme nord 
 set termguicolors
-hi LineNr ctermbg=NONE guibg=NONE
-
 let g:diagnostic_virtual_text_prefix = ''
 let g:diagnostic_enable_virtual_text = 1
 
@@ -52,7 +52,7 @@ let g:completion_trigger_on_delete = 1
     vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>xd', '<cmd>lua vim.lsp.util.show_line_diagnostics()<CR>', opts)
   end
-  local servers = {'pyright', 'vimls', 'jdtls'}
+  local servers = {'pyright', 'vimls', 'jdtls', 'tsserver'}
   for _, lsp in ipairs(servers) do
     nvim_lsp[lsp].setup {
       on_attach = on_attach,
@@ -69,9 +69,9 @@ let g:completion_trigger_on_delete = 1
 
 EOF
 
-highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 
+tnoremap <leader>qq <C-\><C-n>
 nnoremap <leader>u :UndotreeShow<CR>
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>

@@ -22,6 +22,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'puremourning/vimspector'
 Plug 'lervag/vimtex'
-let g:python3_host_prog = '/home/maurice/neovim3/bin/python'
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+Plug 'mfussenegger/nvim-jdtls'
 call plug#end()
 
