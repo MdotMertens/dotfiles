@@ -4,8 +4,9 @@ sxhkd -m -1 &
 picom --experimental-backends --backend glx &
 unclutter &
 dunst &
+setxkbmap us -variant colemak &
 wmname compiz &
-polybar example -r &
+polybar -c $HOME/.config/polybar/voyagerConfig example -r&
 nitrogen --restore
 
 bspc monitor -d code browse gaming music messaging
