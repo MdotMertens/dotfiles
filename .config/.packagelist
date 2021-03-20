@@ -88,6 +88,7 @@ jdk
 jdk11-adoptopenjdk
 jdk11-openjdk
 jdtls
+kappa-launcher-git
 keepassxc
 keychain
 keynav
@@ -221,6 +222,7 @@ torbrowser-launcher
 ttf-dejavu
 ttf-mac-fonts
 typespeed
+udiskie
 unclutter
 unzip
 v4l2loopback-dkms
