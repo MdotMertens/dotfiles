@@ -28,6 +28,7 @@ chromium
 clementine
 cmake
 code
+cordless-bin
 cpupower
 cups
 cura
@@ -68,6 +69,7 @@ geekbench
 gettext
 git
 github-cli
+go
 godot
 goland
 gradle
@@ -219,6 +221,7 @@ tk
 tor
 tor-browser
 torbrowser-launcher
+tsukae-git
 ttf-dejavu
 ttf-mac-fonts
 typespeed
