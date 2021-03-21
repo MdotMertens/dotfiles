@@ -176,3 +176,25 @@ super + v
 # unhide window
 super + shift + v
   bspc node {,$(bspc query -N -n .hidden | tail -n1)} -g hidden=off
+
+# launch Webcam
+super + alt + shift + ctrl + v
+    mpv av://v4l2:/dev/video0 --profile=low-latency --untimed
+
+super + alt + shift + ctrl + m
+    alacritty -e spt
+
+super + alt + shift + ctrl + t
+    kpl
+
+super + alt + shift + ctrl + n
+    obsidian
+
+
+#screenshots
+
+super + alt + shift + ctrl + s
+    $HOME/.local/scripts/maim.sh select
+super + alt + shift + ctrl + c
+    $HOME/.local/scripts/maim.sh selectclipboard
+
