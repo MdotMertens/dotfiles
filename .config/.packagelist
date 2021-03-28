@@ -49,6 +49,7 @@ efibootmgr
 exa
 exercism-bin
 faba-icon-theme
+factorio
 fakeroot
 fbv
 fcron
@@ -146,6 +147,7 @@ noto-fonts-emoji
 npm
 ntfs-3g
 ntp
+nyxt-browser-git
 obs-plugin-ios-camera-source-git
 obs-studio
 obsidian-appimage
@@ -165,7 +167,6 @@ picom-jonaburg-git
 pkgconf
 plantuml
 playerctl
-plover
 polybar
 postgresql
 postman-bin
