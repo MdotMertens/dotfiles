@@ -32,6 +32,7 @@ cordless-bin
 cpupower
 cups
 cura
+deno
 dfu-programmer
 dfu-util
 dhcpcd
