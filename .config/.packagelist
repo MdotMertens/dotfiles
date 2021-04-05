@@ -75,6 +75,7 @@ github-cli
 go
 godot
 goland
+gopls
 gradle
 grep
 groff
