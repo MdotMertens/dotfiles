@@ -1,18 +1,17 @@
 #! /bin/sh
 
 sxhkd -m -1 &
-picom --experimental-backends --backend glx &
+picom --experimental-backends &
 unclutter &
 dunst &
-setxkbmap us -variant colemak &
 wmname compiz &
-polybar -c $HOME/.config/polybar/voyagerConfig example -r&
+polybar example -r&
 nitrogen --restore
 
 bspc monitor -d code browse gaming music messaging
 
-bspc config border_width         5
-bspc config window_gap           20
+bspc config border_width         4
+bspc config window_gap           30
 
 bspc config normal_border_color "#4c566a"
 bspc config active_border_color "#eceff4"

@@ -54,7 +54,7 @@ module-margin-right = 2
 
 font-0 = SF Mono:pixelsize=16:1
 
-modules-left = bspwm 
+modules-left = bspwm eth
 modules-center = date
 modules-right = filesystem pulseaudio wlan eth battery powermenu
 
@@ -227,11 +227,11 @@ type = internal/network
 interface = net1
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
+format-connected = %downspeed% %upspeed%
 format-connected-underline = #9f78e1
 label-connected = %essid%
 
-format-disconnected =
+format-disconnected = disconnected
 ;format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
@@ -249,10 +249,10 @@ type = internal/network
 interface = enp0s29u1u8c4i2
 interval = 3.0
 
-format-connected-underline = #55aa55
+format-connected-underline = white
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
+label-connected = test %downspeed% %upspeed% 
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
@@ -411,6 +411,11 @@ menu-2-0 = power off
 menu-2-0-exec = sudo poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/network-traffic]
+type = custom/script
+exec = $HOME/.config/polybar/scripts/network-traffic.sh
+tail =  true
 
 [settings]
 screenchange-reload = true

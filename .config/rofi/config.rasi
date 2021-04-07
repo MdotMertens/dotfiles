@@ -1,9 +1,10 @@
 * {
   background-color: #2e3440;
   border-color: #4c566a;
-  text-color: #8ca0aa;
+  text-color: #eceff4;
   spacing: 0;
   width: 50%;
+  font: "SF Mono 20";
 }
 
 inputbar {
@@ -39,5 +40,5 @@ element {
 }
 
 element selected {
-  background-color: #2e343f;
+  background-color: #4c566a;
 }

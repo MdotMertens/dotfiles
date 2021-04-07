@@ -197,4 +197,5 @@ super + alt + shift + ctrl + s
     $HOME/.local/scripts/maim.sh select
 super + alt + shift + ctrl + c
     $HOME/.local/scripts/maim.sh selectclipboard
-
+super + alt + shift + ctrl + p
+    $HOME/.local/scripts/maim.sh wholescreenclipboard
